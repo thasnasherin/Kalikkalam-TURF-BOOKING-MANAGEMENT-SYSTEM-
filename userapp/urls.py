@@ -2,7 +2,7 @@ from django.urls import path
 from.import views
 
 urlpatterns = [
-    path('',views.addlocation,name='addlocation'),
+    path('addlocation',views.addlocation,name='addlocation'),
     path('location',views.location,name='location'),
     path('locationtable',views.locationtable,name='locationtable'),
     path('addturf',views.addturf,name='addturf'),
